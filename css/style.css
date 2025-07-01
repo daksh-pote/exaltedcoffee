@@ -1,0 +1,248 @@
+.banner1{
+    background-image: url('../images/Frame\ 8.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 643px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: linear-gradient(270deg, #18303DF2, #E8A45C05);
+
+}
+
+.bannerheading{
+  font-family: 'PT Serif', serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 112.99999999999999%;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+ .ribbon{
+    /* top: 0;
+    left: 0; */
+    background-color: #18303D;
+    color: #F5C390;
+    padding: 10px 20px;
+    font-family: 'Edu NSW ACT Cursive', cursive;
+    font-weight: 600;
+    font-size: 21.87px;
+    z-index: 1;
+    margin-bottom: 2rem;
+    display: inline-block;
+} 
+
+.orangebutton {
+    background-color: #E8A45C;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    border-radius: 40px;
+    width: 296px;
+    line-height: 168%;
+    letter-spacing: 4%;
+}
+
+.About_section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 123px;
+}
+
+.orangetext{
+    font-family: 'PT Serif', serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 112.99999999999999%;
+    color: #E8A45C;
+    margin-top: 40px;
+}
+
+.bluetext {
+    font-family: 'PT Serif', serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 112.99999999999999%;
+    color: #18303D;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 153%;
+    color: #6B655E;
+    margin-top: 80px;
+}
+
+.About_section .ribbon {
+   width: 311px;
+}
+
+.About_section .orangebutton {
+    width: 296px;
+    margin-top: 40px;
+}
+
+.About_section .figure {
+    margin-top: 50px;
+}
+
+.blue2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 112.99999999999999%;
+    color: #18303D;
+    margin-top: 40px;
+
+}
+
+.content{
+    font-family:'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #6B655E;       
+}
+
+.our_offerings {
+    background-image: url('../images/beans.png');
+    background-color: #18303D;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 923px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our_offerings .orangebutton{
+    background-color: #FFFFFF33;
+}
+
+.our_offerings .orangebutton:hover {
+    background-color: #E8A45C;
+    color: #FFFFFF;
+}
+
+.offering {
+    width: 214px;
+    height: 324px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF1F;
+    border-style: solid;
+    border-color: #F5C390;
+    border-width: 1px;
+    border-radius: 22px;
+}
+
+.offering:hover{
+    background-color: #d6a278;
+}
+
+.offering:hover h3,
+.offering:hover h4 {
+  color: white;
+}
+
+.offering h3{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #F5C390;
+    line-height: 112.99999999999999%;
+}
+
+.offering h4{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #A2A2A2;
+    margin-bottom: 20px;
+    line-height: 150%;
+}
+
+.testimonials{
+    width: 100%;
+    height: auto;
+    margin-top: 123px;
+}
+
+.banner2 {
+    background-image: url('../images/Frame\ 30.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 670px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: linear-gradient(270deg, #18303DF2, #E8A45C05);
+    padding-top: 11rem;
+    margin-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+.footer {
+padding: 5rem;
+}
+
+.footer-logo h3{
+    color: #E8A45C;
+    font-family: 'Kameron', serif;
+    font-size: 35.57px;
+    line-height: 100%;
+    font-weight: 700;
+    letter-spacing: 4%;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+a {
+    color: #18303D;
+    font-family: PT Sans, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 9%;
+}
+
+.footer-row h1{
+    font-family: Edu NSW ACT Cursive, cursive;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 112.99999999999999%;
+    color: #18303D;
+    text-align: center;
+}
+
+.footer-row {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 112%;
+    color: #18303D;
+    text-align: center;
+    border-style: solid;
+    border-color: #E8A45C;
+    border-width: 1px;
+    width: 100%;
+    height: 100px;
+}
+
