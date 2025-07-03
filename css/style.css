@@ -1,4 +1,4 @@
-.banner1{
+.banner1 {
     background-image: url('../images/Frame\ 8.png');
     background-size: cover;
     background-position: center;
@@ -12,16 +12,16 @@
 
 }
 
-.bannerheading{
-  font-family: 'PT Serif', serif;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 112.99999999999999%;
-  margin-bottom: 2rem;
-  color: white;
+.bannerheading {
+    font-family: 'PT Serif', serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 112.99999999999999%;
+    margin-bottom: 2rem;
+    color: white;
 }
 
- .ribbon{
+.ribbon {
     /* top: 0;
     left: 0; */
     background-color: #18303D;
@@ -33,7 +33,7 @@
     z-index: 1;
     margin-bottom: 2rem;
     display: inline-block;
-} 
+}
 
 .orangebutton {
     background-color: #E8A45C;
@@ -57,7 +57,7 @@
     margin-top: 123px;
 }
 
-.orangetext{
+.orangetext {
     font-family: 'PT Serif', serif;
     font-size: 44px;
     font-weight: 700;
@@ -84,7 +84,7 @@ p {
 }
 
 .About_section .ribbon {
-   width: 311px;
+    width: 311px;
 }
 
 .About_section .orangebutton {
@@ -96,7 +96,7 @@ p {
     margin-top: 50px;
 }
 
-.blue2{
+.blue2 {
     font-family: 'PT Sans', sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -106,12 +106,12 @@ p {
 
 }
 
-.content{
-    font-family:'PT Sans', sans-serif;
+.content {
+    font-family: 'PT Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 150%;
-    color: #6B655E;       
+    color: #6B655E;
 }
 
 .our_offerings {
@@ -127,7 +127,7 @@ p {
     justify-content: center;
 }
 
-.our_offerings .orangebutton{
+.our_offerings .orangebutton {
     background-color: #FFFFFF33;
 }
 
@@ -150,16 +150,16 @@ p {
     border-radius: 22px;
 }
 
-.offering:hover{
+.offering:hover {
     background-color: #d6a278;
 }
 
 .offering:hover h3,
 .offering:hover h4 {
-  color: white;
+    color: white;
 }
 
-.offering h3{
+.offering h3 {
     font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -167,7 +167,7 @@ p {
     line-height: 112.99999999999999%;
 }
 
-.offering h4{
+.offering h4 {
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -176,7 +176,7 @@ p {
     line-height: 150%;
 }
 
-.testimonials{
+.testimonials {
     width: 100%;
     height: auto;
     margin-top: 123px;
@@ -199,10 +199,12 @@ p {
 }
 
 .footer {
-padding: 5rem;
+   padding-left: 0px;
+   padding-right: 0px;
+   padding-top: 5rem;
 }
 
-.footer-logo h3{
+.footer-logo h3 {
     color: #E8A45C;
     font-family: 'Kameron', serif;
     font-size: 35.57px;
@@ -223,7 +225,7 @@ a {
     letter-spacing: 9%;
 }
 
-.footer-row h1{
+.footer-row h1 {
     font-family: Edu NSW ACT Cursive, cursive;
     font-size: 22px;
     font-weight: 700;
@@ -239,10 +241,15 @@ a {
     line-height: 112%;
     color: #18303D;
     text-align: center;
-    border-style: solid;
-    border-color: #E8A45C;
-    border-width: 1px;
     width: 100%;
-    height: 100px;
+    margin-top: 50px;
+    padding: 0 0 0 0;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.footer-col {
+    border: 1px solid #E8A45C;
+    padding: 3rem; 
 }
 
