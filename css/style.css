@@ -369,17 +369,24 @@ hr {
     color: #E8A45C;
 } 
 
-/* .gallary .row{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-}
-
-.gallary .col{
-    grid-column: span 3;
-    width: auto;
-    overflow: hidden;
+.menubanner1{
+    background-image: url('../images/Frame\ 32.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 545px;
     display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-} */
+    align-items: center;
+    justify-content: left;
+    background-color: linear-gradient(270deg, #18303DF2, #E8A45C05);
+    align-items: center;
+    padding: 13rem;
+    font-family: Edu NSW ACT Cursive, cursive;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 4%;
+    color: #E8A45C;
+}
 
