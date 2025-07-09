@@ -1,0 +1,248 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coffee Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0D2B3E;
+      color: #F9C784;
+      text-align: center;
+    }
+    h2 {
+      font-size: 36px;
+      margin-top: 10px;
+    }
+    .buttons {
+      margin: 20px auto;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    .buttons button {
+      background-color: #3E5563;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .menu-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 20px;
+    }
+    .menu-item {
+      background-color: #1E3A4C;
+      border-radius: 10px;
+      padding: 20px;
+      width: 200px;
+      color: white;
+    }
+    .menu-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .menu-item h3 {
+      color: #F9C784;
+    }
+  </style>
+</head>
+<body>
+  <h2>Handcrafted Drinks. <br> Made to Uplift & Energize.</h2>
+
+  <div class="buttons">
+    <button onclick="showMenu('hot')">HOT DRINKS</button>
+    <button onclick="showMenu('cold')">COLD DRINKS</button>
+    <button onclick="showMenu('refresh')">REFRESHERS</button>
+  </div>
+
+  <div id="menu" class="menu-container">
+    // Default Menu 
+  </div>
+
+  <script>
+    const menus = {
+      hot: [
+        { name: "Americano", desc: "Espresso and hot water", img: "https://i.imgur.com/lcIh1D1.png" },
+        { name: "Latte", desc: "Espresso & steamed milk, foam", img: "https://i.imgur.com/bOJGZOL.png" },
+        { name: "Hot Chocolate", desc: "Rich cocoa with steamed milk", img: "https://i.imgur.com/HCUr0XD.png" },
+        { name: "Hot Brewed Coffee", desc: "Freshly brewed drip coffee", img: "https://i.imgur.com/BDKrNLc.png" }
+      ],
+      cold: [
+        { name: "Iced Americano", desc: "Espresso with cold water & ice", img: "https://i.imgur.com/mG4f0xI.png" },
+        { name: "Iced Latte", desc: "Cold milk over espresso & ice", img: "https://i.imgur.com/qEt7bzP.png" },
+        { name: "Cold Brew", desc: "Slow-brewed cold coffee", img: "https://i.imgur.com/TG6uxrY.png" }
+      ],
+      refresh: [
+        { name: "Mango Fizz", desc: "Mango with soda & mint", img: "https://i.imgur.com/MFRa2TD.png" },
+        { name: "Berry Blast", desc: "Mixed berries & lemon", img: "https://i.imgur.com/dXKM47m.png" },
+        { name: "Lemonade", desc: "Classic chilled lemonade", img: "https://i.imgur.com/IqLS1Fe.png" }
+      ]
+    };
+
+    function showMenu(type) {
+      const container = document.getElementById("menu");
+      container.innerHTML = "";
+      menus[type].forEach(item => {
+        container.innerHTML += `
+          <div class="menu-item">
+            <img src="${item.img}" alt="${item.name}" />
+            <h3>${item.name}</h3>
+            <p>${item.desc}</p>
+          </div>`;
+      });
+    }
+
+    // Load default menu (hot drinks) on page load
+    window.onload = () => showMenu('hot');
+  </script>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coffee Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0D2B3E;
+      color: #F9C784;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    h2 {
+      font-size: 36px;
+      margin-top: 30px;
+    }
+    .buttons {
+      margin: 20px auto;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    .buttons button {
+      background-color: #3E5563;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .buttons button:hover,
+    .buttons button.active {
+      background-color: #F9C784;
+      color: #0D2B3E;
+    }
+    .menu-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin: 30px auto 50px;
+      max-width: 1000px;
+    }
+    .menu-item {
+      background-color: #1E3A4C;
+      border-radius: 10px;
+      padding: 20px;
+      width: 200px;
+      color: white;
+      transition: 0.3s;
+    }
+    .menu-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .menu-item h3 {
+      color: #F9C784;
+      margin-top: 15px;
+    }
+    .menu-item p {
+      margin-top: 5px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Handcrafted Drinks. <br> Made to Uplift & Energize.</h2>
+
+  <div class="buttons">
+    <button onclick="showMenu('hot')">HOT DRINKS</button>
+    <button onclick="showMenu('cold')">COLD DRINKS</button>
+    <button onclick="showMenu('refresh')">REFRESHERS</button>
+  </div>
+
+  <div id="menu" class="menu-container">
+    <!-- Menu will be loaded here -->
+  </div>
+
+  <script>
+    const menus = {
+      hot: [
+        { name: "Americano", desc: "Espresso and hot water", img: "D:\Pearl Rain Digital\exalted coffee\images\coffee-beans-around-cup 1.png" },
+        { name: "Latte", desc: "Espresso & steamed milk, foam", img: "https://i.imgur.com/bOJGZOL.png" },
+        { name: "Hot Chocolate", desc: "Rich cocoa with steamed milk", img: "https://i.imgur.com/HCUr0XD.png" },
+        { name: "Hot Brewed Coffee", desc: "Freshly brewed drip coffee", img: "https://i.imgur.com/BDKrNLc.png" }
+      ],
+      cold: [
+        { name: "Iced Americano", desc: "Espresso with cold water & ice", img: "https://i.imgur.com/mG4f0xI.png" },
+        { name: "Iced Latte", desc: "Cold milk over espresso & ice", img: "https://i.imgur.com/qEt7bzP.png" },
+        { name: "Cold Brew", desc: "Slow-brewed cold coffee", img: "https://i.imgur.com/TG6uxrY.png" }
+      ],
+      refresh: [
+        { name: "Mango Fizz", desc: "Mango with soda & mint", img: "https://i.imgur.com/MFRa2TD.png" },
+        { name: "Berry Blast", desc: "Mixed berries & lemon", img: "https://i.imgur.com/dXKM47m.png" },
+        { name: "Lemonade", desc: "Classic chilled lemonade", img: "https://i.imgur.com/IqLS1Fe.png" }
+      ]
+    };
+
+    function showMenu(type) {
+      const container = document.getElementById("menu");
+      container.innerHTML = "";
+
+      // Update button styles
+      const buttons = document.querySelectorAll(".buttons button");
+      buttons.forEach(btn => btn.classList.remove("active"));
+
+      const activeButtonMap = {
+        hot: "HOT DRINKS",
+        cold: "COLD DRINKS",
+        refresh: "REFRESHERS"
+      };
+
+      buttons.forEach(btn => {
+        if (btn.textContent.trim() === activeButtonMap[type]) {
+          btn.classList.add("active");
+        }
+      });
+
+      // Load items
+      menus[type].forEach(item => {
+        container.innerHTML += `
+          <div class="menu-item">
+            <img src="${item.img}" alt="${item.name}" />
+            <h3>${item.name}</h3>
+            <p>${item.desc}</p>
+          </div>`;
+      });
+    }
+
+    // Load default
+    window.onload = () => showMenu('hot');
+  </script>
+</body>
+</html>
