@@ -461,3 +461,48 @@ hr {
   height: 250px;
 }
 
+.faq {
+  font-family: 'PT Serif', serif;
+  max-width: 500px;
+  margin: auto;
+}
+
+details {
+  margin-bottom: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+summary {
+  background-color: #4a5568;
+  color: #fff;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none;
+  transition: background-color 0.3s ease;
+}
+
+details[open] > summary {
+background-color: rgba(232, 164, 92, 0.77);
+}
+
+.answer {
+  background-color:rgba(255, 255, 255, 0.32); 
+  color: #FFFFFF;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  animation: fadeIn 0.3s ease-in-out;
+  font-weight: 400;
+}
+
+/* Optional smooth fade animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
