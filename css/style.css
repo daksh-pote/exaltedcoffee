@@ -502,3 +502,143 @@ summary {
     border-radius: 25px;
     cursor: pointer;
 }
+
+.menubutton{
+    font-family: PT Sans, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 168%;
+    padding: 0.5rem 2rem ;
+    border-radius: 42.68px;
+}
+
+.menubutton:hover {
+    background-color: #E8A45C;
+    color: #FFFFFF;
+}
+
+.menu {
+  max-width: 1040px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.title-line {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.title-line h3 {
+  margin: 0;
+  color: #18303D;
+  font-weight: 700;
+  white-space: nowrap;
+  margin-right: 10px;
+  font-family: PT Sans, sans-serif;
+  font-size: 24px;
+}
+
+.line {
+  flex-grow: 1;
+  border-bottom: 1px dashed #E8A45C;
+  margin: 0 10px;
+  height: 0;
+}
+
+.price {
+  color: #E8A45C;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.menu-item p {
+  margin: 5px 0 0;
+  color: #666;
+  font-size: 20px;
+  font-family: PT Sans, sans-serif;
+  font-weight: 400;
+}
+
+.addons-container {
+  display: flex;
+  background-color: #fef9f5;
+  padding: 30px;
+  max-width: 1040px;
+  margin: auto;
+  display: flex;
+  justify-content: between;
+  align-items: flex-start;
+  gap: 100px;
+  margin-top: 5rem;
+}
+
+.addons-left {
+  width: 35%;
+  padding-right: 30px;
+  border-right: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.addons-left .icon {
+  font-size: 28px;
+  color: #E8A45C;
+}
+
+.addons-left h2 {
+  font-size: 36px;
+  color: #18303D;
+  margin: 10px 0 5px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+}
+
+.addons-left p {
+  font-size: 16px;
+  font-family: Edu NSW ACT Cursive, cursive;
+  color: #E8A45C;
+  margin: 0 0 20px;
+  font-weight: 600;
+}
+
+.addons-right {
+  width: 65%;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.addon-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.name {
+  white-space: nowrap;
+  font-weight: 600;
+  color: #18303D;
+  font-family: PT Sans, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.line {
+  flex-grow: 1;
+  border-bottom: 1px dotted #E8A45C;
+  margin: 0 10px;
+  height: 0;
+}
+
+.price {
+  color: #E8A45C;
+  font-weight: 600;
+  white-space: nowrap;
+}
