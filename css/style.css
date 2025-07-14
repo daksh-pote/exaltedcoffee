@@ -642,3 +642,66 @@ summary {
   font-weight: 600;
   white-space: nowrap;
 }
+
+.aboutus{
+    margin-top: 10rem;
+}
+
+.about-right{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.about-right h3 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #18303D;
+  margin-bottom: 10px;   
+}
+
+.about-right h4 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #6B655E;
+}
+
+.coffee-card {
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+}
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.image-wrapper img {
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+}
+
+.floating-icon {
+  position: absolute;
+  top: 50%;
+  left: -35px;
+  transform: translateY(-50%);
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 10px;
+}
+
+.floating-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.description {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #444;
+  line-height: 1.6;
+}
