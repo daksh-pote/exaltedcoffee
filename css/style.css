@@ -666,42 +666,30 @@ summary {
   color: #6B655E;
 }
 
-.coffee-card {
-  max-width: 600px;
-  text-align: center;
-  position: relative;
+.ourstory {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
 }
 
-.image-wrapper {
-  position: relative;
-  display: inline-block;
+.image-text{
+    margin-top: 3rem;
 }
 
-.image-wrapper img {
-  width: 100%;
-  border-radius: 20px;
-  display: block;
+.image-text img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 20px;
 }
 
-.floating-icon {
-  position: absolute;
-  top: 50%;
-  left: -35px;
-  transform: translateY(-50%);
-  background-color: white;
-  border-radius: 50%;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  padding: 10px;
-}
-
-.floating-icon img {
-  width: 40px;
-  height: 40px;
-}
-
-.description {
-  margin-top: 25px;
-  font-size: 14px;
-  color: #444;
-  line-height: 1.6;
+.image-text p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #6B655E;
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
